@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <title>Bookmarker assignment</title>
+  </head>
+
+  <body>
+
+    <div class="container py-4">
+      <div class="bookmark-title">
+        <h1 >Bookmarker</h1>
+        <hr>
+      </div>
+      <div class="bookmarker-form w-75 mx-auto my-3 bg-dark bg-opacity-10 text-center ">
+        <h2 class="py-3">Bookmark your favorite sites</h2>
+        <div class="bookmarker-form-inner w-75 mx-auto py-3">
+          <label for="bookMarkName">Site Name :</label>
+          <input type="text" class="form-control mb-3 " id="bookMarkName" />
+          <label for="bookMarkUrl">Site URL :</label>
+          <input type="text" class="form-control mb-3 " id="bookMarkUrl" />
+          <button
+            id="addBookmarkBtn"
+            onclick="addBookmark();"
+            class="btn btn-lg d-block my-3 mx-auto btn-primary"
+          >
+            Submit
+          </button>
+        </div>
+      
+      </div>
+      <div class="markerTable w-75 mx-auto my-3 bg-dark bg-opacity-10">
+        <table class="table">
+          <tbody id="bookmarksTable"></tbody>
+        </table>
+       </div>
+    </div>
+
+    
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

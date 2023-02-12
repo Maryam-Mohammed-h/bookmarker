@@ -1,0 +1,19 @@
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #aaa;
+}
+a {
+  color: #fff;
+}
+.bookmarker-form {
+  font-weight: 500;
+}
+.markerTable {
+  color: #333;
+}
+.markerTable td {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
